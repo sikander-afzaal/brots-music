@@ -27,7 +27,20 @@ module.exports = {
       },
       screens: {
         mid: "834px",
+        "1xl": "1366px",
         "3xl": "2000px",
+      },
+      animation: {
+        colorChange: "colorChange 25s ease-in-out infinite alternate",
+      },
+      keyframes: {
+        colorChange: {
+          "0%": { color: "#E400ED" },
+          "25%": { color: "#A9E1FC" },
+          "50%": { color: "#CEFF44" },
+          "75%": { color: "#850CEE" },
+          "100%": { color: "#142FEC" },
+        },
       },
     },
   },
