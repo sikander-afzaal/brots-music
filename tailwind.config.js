@@ -20,6 +20,7 @@ module.exports = {
         floorMob: "url('/floor-mobile.png')",
         floorMid: "url('/floor-1920.png')",
         floorBig: "url('/floor-2560.png')",
+        card: "url('/bg-card.png')",
       },
       colors: {
         pink: "#E400ED",

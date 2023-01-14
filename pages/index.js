@@ -1,5 +1,6 @@
 import Early from "@/components/Landing/Early";
 import Hero from "@/components/Landing/Hero";
+import Releases from "@/components/Landing/Releases";
 import Head from "next/head";
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       </Head>
       <Hero />
       <Early />
+      <Releases />
     </>
   );
 }
