@@ -17,6 +17,9 @@ module.exports = {
         heroMob: "url('/hero-mobile.jpg')",
         heroMid: "url('/hero-1920.jpg')",
         heroBig: "url('/hero-2560.jpg')",
+        floorMob: "url('/floor-mobile.png')",
+        floorMid: "url('/floor-1920.png')",
+        floorBig: "url('/floor-2560.png')",
       },
       colors: {
         pink: "#E400ED",
@@ -24,6 +27,7 @@ module.exports = {
         green: "#CEFF44",
         purple: "#850CEE",
         darkBlue: "#142FEC",
+        cream: "#EEEDE4",
       },
       screens: {
         mid: "834px",
