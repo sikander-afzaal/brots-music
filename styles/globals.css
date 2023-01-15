@@ -28,6 +28,11 @@ body {
   color: transparent;
   filter: drop-shadow(0px 3px 10px #fffdfd);
 }
+.text-stroke-black {
+  -webkit-text-stroke: 0.1px black;
+  text-stroke: 0.1px black;
+  color: transparent;
+}
 .release-slider .splide__slide {
   transform: scale(0.82) !important;
   transition: all 0.2s ease-in-out;
