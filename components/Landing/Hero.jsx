@@ -2,8 +2,11 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="wrapper bg-none mid:bg-heroMid min-h-screen 3xl:bg-heroBig py-[100px] bg-contain bg-right-top bg-no-repeat ">
-      <div className="flex w-full mid:gap-[100px] lg:gap-[150px] flex-col justify-center items-start h-full">
+    <div
+      className="wrapper bg-none mid:bg-heroMid 3xl:min-h-[1304px] 2xl:min-h-[985px] 1xl:min-h-[675px]
+    xl:min-h-[675px] min-h-screen 3xl:bg-heroBig py-[100px] bg-contain bg-right-top bg-no-repeat "
+    >
+      <div className="flex w-full mid:gap-[100px] lg:gap-[150px] 3xl:gap-[60px] flex-col justify-center items-start h-full">
         <h1 className="text-white uppercase mx-auto leading-[1] w-full max-w-[90%] font-bold text-[10vw]  mid:text-[7vw] 2xl:text-[145px] 3xl:text-[200px]">
           Music <br /> in <span className="animate-colorChange">Limited</span>{" "}
           <br /> Edition
