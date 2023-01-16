@@ -24,9 +24,8 @@ const Releases = ({ heading }) => {
               breakpoints: {
                 640: {
                   gap: "0.2rem",
-                  autoWidth: false,
-                  perPage: 1,
-                  focus: 0,
+                  autoWidth: true,
+                  focus: "center",
                 },
               },
             }}
