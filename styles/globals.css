@@ -64,3 +64,10 @@ body {
   width: 100%;
   position: absolute;
 }
+.release-slider .splide__arrow {
+  background-color: transparent !important;
+  opacity: 1 !important;
+}
+.release-slider .splide__arrow--prev {
+  transform: rotate(180deg) translateY(45%) !important;
+}

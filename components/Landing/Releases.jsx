@@ -1,4 +1,4 @@
-import { Splide, SplideSlide } from "@splidejs/react-splide";
+import { Splide, SplideSlide, SplideTrack } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import Image from "next/image";
 
@@ -30,20 +30,57 @@ const Releases = () => {
                 },
               },
             }}
+            hasTrack={false}
             className="release-slider"
           >
-            <SplideSlide>
-              <ReleaseCard />
-            </SplideSlide>
-            <SplideSlide>
-              <ReleaseCard />
-            </SplideSlide>
-            <SplideSlide>
-              <ReleaseCard />
-            </SplideSlide>
-            <SplideSlide>
-              <ReleaseCard />
-            </SplideSlide>
+            <SplideTrack>
+              <SplideSlide>
+                <ReleaseCard />
+              </SplideSlide>
+              <SplideSlide>
+                <ReleaseCard />
+              </SplideSlide>
+              <SplideSlide>
+                <ReleaseCard />
+              </SplideSlide>
+              <SplideSlide>
+                <ReleaseCard />
+              </SplideSlide>
+            </SplideTrack>{" "}
+            <div className="splide__arrows">
+              <button className="splide__arrow splide__arrow--prev">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="#B4B4B4"
+                  className="w-8 h-8"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M19.5 12h-15m0 0l6.75 6.75M4.5 12l6.75-6.75"
+                  />
+                </svg>
+              </button>
+              <button className="splide__arrow splide__arrow--next">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="#B4B4B4"
+                  className="w-8 h-8"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"
+                  />
+                </svg>
+              </button>
+            </div>
           </Splide>
         </div>
         <div className=" hidden sm:grid grid-cols-2 place-items-center grid-rows-2 xl:self-auto self-center xl:flex justify-between xl:w-full items-center gap-7 xl:gap-4 flex-wrap">
