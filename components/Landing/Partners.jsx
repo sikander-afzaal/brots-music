@@ -10,7 +10,6 @@ const Partners = () => {
         <div className="lg:flex justify-between grid grid-cols-2 place-items-center grid-rows-2 2xl:justify-around 3xl:justify-center items-center w-full 3xl:gap-[100px] sm:gap-5">
           <div className="relative w-[140px] sm:w-[270px] lg:w-[300px] 1xl:w-[350px] h-[100px] xl:h-[185px]">
             <Image
-              alt="..."
               alt="partners"
               fill
               src={"/part1.png"}
@@ -20,7 +19,6 @@ const Partners = () => {
           <div className="relative w-[140px] sm:w-[270px] lg:w-[300px] 1xl:w-[350px] col-start-1 col-end-3 row-start-1 row-end-2  h-[100px] xl:h-[135px]">
             {" "}
             <Image
-              alt="..."
               alt="partners"
               fill
               src={"/part2.png"}
@@ -30,7 +28,6 @@ const Partners = () => {
           <div className="relative w-[140px] sm:w-[270px] lg:w-[300px] 1xl:w-[350px] h-[100px] xl:h-[130px]">
             {" "}
             <Image
-              alt="..."
               alt="partners"
               fill
               src={"/part3.png"}

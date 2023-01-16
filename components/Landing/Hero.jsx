@@ -10,7 +10,6 @@ const Hero = () => {
         </h1>
         <div className="relative -mt-[70px] sm:-mt-[100px] mb-[10px] sm:mb-[50px] -z-10 mid:hidden block w-full aspect-square">
           <Image
-            alt="..."
             fill
             style={{ objectFit: "cover" }}
             src="/hero-mobile.jpg"
