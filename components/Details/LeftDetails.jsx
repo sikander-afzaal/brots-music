@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const LeftDetails = () => {
   return (
-    <div className="flex w-full justify-start items-start flex-col gap-5">
+    <div className="flex sticky top-[100px] w-full justify-start items-start flex-col gap-5">
       <div className="w-full aspect-square relative">
         <Image src={"/image-detail.png"} fill alt="..." />
       </div>
