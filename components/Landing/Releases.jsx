@@ -18,16 +18,15 @@ const Releases = ({ heading }) => {
               focus: "center",
               arrows: true,
               pagination: true,
-              perMove: 1,
               type: "loop",
               gap: "1rem",
               drag: true,
               breakpoints: {
-                600: {
+                640: {
                   gap: "0.2rem",
                   autoWidth: false,
                   perPage: 1,
-                  focus: false,
+                  focus: 0,
                 },
               },
             }}
@@ -102,7 +101,7 @@ export default Releases;
 
 const ReleaseCard = () => {
   return (
-    <Link href={"/details"}>
+    <Link href={"/details"} className="slider-div">
       <div className="flex justify-start h-[500px] max-h-[490px] items-center flex-col w-[280px] sm:w-[290px] p-[15px] bg-card bg-[100%__100%] gap-[40px]">
         <div className="w-full max-h-[250px] min-h-[250px] mt-1 relative">
           <Image alt="..." src="/release.png" fill />

@@ -19,7 +19,7 @@ const Early = () => {
               01
             </h4>
             <div className="flex justify-start items-start flex-col gap-5">
-              <h3 className="uppercase text-cream leading-[1] text-[28px] sm:text-[62px] mid:text-[42px] xl:text-[50px] 1xl:text-[62px] font-medium">
+              <h3 className="uppercase text-cream leading-[1] text-[28px] sm:text-[49px] mid:text-[42px] xl:text-[50px] 1xl:text-[62px] font-medium">
                 Collect
               </h3>
               <p className="leading-[1.1] text-lg sm:text-[33px] mid:text-lg xl:text-xl 1xl:text-[25px] text-cream">
@@ -33,7 +33,7 @@ const Early = () => {
               02
             </h4>
             <div className="flex justify-start items-start flex-col gap-5">
-              <h3 className="uppercase text-cream leading-[1] text-[28px] sm:text-[62px] mid:text-[42px] xl:text-[50px] 1xl:text-[62px] font-medium">
+              <h3 className="uppercase text-cream leading-[1] text-[28px] sm:text-[49px] mid:text-[42px] xl:text-[50px] 1xl:text-[62px] font-medium">
                 EXPERIENCE
               </h3>
               <p className="leading-[1.1] text-lg sm:text-[33px] mid:text-lg xl:text-xl 1xl:text-[25px] text-cream">
@@ -48,7 +48,7 @@ const Early = () => {
               03
             </h4>
             <div className="flex justify-start items-start flex-col gap-5">
-              <h3 className="uppercase text-cream leading-[1] text-[28px] sm:text-[62px] mid:text-[42px] xl:text-[50px] 1xl:text-[62px] font-medium">
+              <h3 className="uppercase text-cream leading-[1] text-[28px] sm:text-[49px] mid:text-[42px] xl:text-[50px] 1xl:text-[62px] font-medium">
                 FLEX
               </h3>
               <p className="leading-[1.1] text-lg sm:text-[33px] mid:text-lg xl:text-xl 1xl:text-[25px] text-cream">
