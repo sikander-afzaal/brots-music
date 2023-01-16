@@ -112,7 +112,9 @@ const ReleaseCard = () => {
             <Image alt="..." src={"/artists.png"} width={42} height={42} />
             <div className="flex justify-center items-start pt-1 flex-col gap-3">
               <p className="text-cream text-xl font-medium ">RUDE CAT</p>
-              <p className="text-cream text-2xl font-medium ">Do You Mind</p>
+              <p className="text-cream text-base font-druk font-medium ">
+                Do You Mind
+              </p>
             </div>
           </div>
           <div className="text-lg self-end  font-medium text-[#E2E5FE] border-[1px] border-solid border-[#E2E5FE] p-1 rounded-[10px]">

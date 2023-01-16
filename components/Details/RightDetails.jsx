@@ -14,7 +14,7 @@ const RightDetails = () => {
           <Image src={"/opensea.png"} width={30} height={30} alt="..." />
         </div>
       </div>
-      <h2 className="text-cream  text-[35px] sm:text-[50px] font-medium mt-3">
+      <h2 className="text-cream font-druk text-[35px] sm:text-[50px] font-medium mt-3">
         Do You Mind
       </h2>
       <div className="flex justify-start mt-8 items-start flex-col w-full gap-5">
