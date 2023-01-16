@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Partners = () => {
   return (
-    <div className="wrapper mt-[170px]">
+    <div className="wrapper mt-[100px] sm:mt-[170px]">
       <div className="contain flex-col justify-center items-center gap-8 sm:gap-16">
         <h4 className="text-white text-[32px] font-normal">
           We{"'"}ve partnered with

@@ -21,7 +21,7 @@ export default function Home() {
       </Head>
       <Hero />
       <Early />
-      <Releases />
+      <Releases heading={"Recent Release"} />
       <Partners />
       <Share />
       <Steps />

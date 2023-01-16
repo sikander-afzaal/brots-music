@@ -7,7 +7,7 @@ const Steps = () => {
             <p className="text-stroke-black flex justify-center items-center h-[40px] leading-[0] text-lg sm:text-[20px] xl:text-[24px]  2xl:text-[32px]  font-bold">
               01
             </p>
-            <p className="text-black text-[29px] sm:text-[33px] xl:text-[48px] 2xl:text-[62px] leading-[1.1] font-medium uppercase">
+            <p className="text-black text-[29px] sm:text-[33px] xl:text-[48px] 2xl:text-[62px] leading-[1.1] font-normal uppercase">
               Collect your favourite music
             </p>
           </div>
@@ -21,7 +21,7 @@ const Steps = () => {
             <p className="text-stroke-black flex justify-center items-center h-[40px] leading-[0] text-lg sm:text-[20px] xl:text-[24px]  2xl:text-[32px]  font-bold">
               02
             </p>
-            <p className="text-black text-[29px] sm:text-[33px] xl:text-[48px] 2xl:text-[62px] text-right self-end leading-[1.1] font-medium uppercase">
+            <p className="text-black text-[29px] sm:text-[33px] xl:text-[48px] 2xl:text-[62px] text-right self-end leading-[1.1] font-normal uppercase">
               SHOW YOUR LOVE FOR ARTISTS
             </p>
           </div>
@@ -35,7 +35,7 @@ const Steps = () => {
             <p className="text-stroke-black flex justify-center items-center h-[40px] leading-[0] text-lg sm:text-[20px] xl:text-[24px]  2xl:text-[32px]  font-bold">
               03
             </p>
-            <p className="text-black text-[29px] sm:text-[33px] xl:text-[48px] 2xl:text-[62px]  leading-[1.1] font-medium uppercase">
+            <p className="text-black text-[29px] sm:text-[33px] xl:text-[48px] 2xl:text-[62px]  leading-[1.1] font-normal uppercase">
               DISCOVER AMAZING NEW MUSIC
             </p>
           </div>
@@ -43,12 +43,12 @@ const Steps = () => {
             Find out new releases and prove that <br /> you were the first fan.
           </p>
         </div>
-        <div className="flex justify-start xl:-mt-[80px] 3xl:-mt-0 3xl:row-start-4 3xl:row-end-5 mid:row-start-5 mid:row-end-6 mid:col-start-2 mid:col-end-3 items-start w-full max-w-[270px] sm:max-w-[350px] xl:max-w-[460px] justify-self-end self-center flex-col gap-5">
+        <div className="flex justify-start xl:-mt-[80px] 3xl:-mt-0 3xl:row-start-4 3xl:row-end-5 mid:row-start-5 mid:row-end-6 mid:col-start-2 mid:col-end-3 items-start w-full max-w-[270px] sm:max-w-[350px] xl:max-w-[560px] justify-self-end self-center flex-col gap-5">
           <div className="bg-white text-black w-full sm:py-5 sm:px-5 p-3 flex justify-start gap-2 items-start flex-col">
             <p className="text-stroke-black flex justify-center items-center h-[40px] leading-[0] text-lg sm:text-[20px] xl:text-[24px]  2xl:text-[32px]  font-bold">
               04
             </p>
-            <p className="text-black self-end text-right text-[29px] sm:text-[33px] xl:text-[48px] 2xl:text-[62px]  leading-[1.1] font-medium uppercase">
+            <p className="text-black self-end text-right text-[29px] sm:text-[33px] xl:text-[48px] 2xl:text-[62px]  leading-[1.1] font-normal uppercase">
               EXCLUSIVE EXPERIENCES
             </p>
           </div>

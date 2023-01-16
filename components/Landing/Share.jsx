@@ -2,7 +2,7 @@ const Share = () => {
   return (
     <div className="wrapper mt-[100px] sm:mt-[200px]">
       <div className="contain flex-col justify-start items-center">
-        <div className="flex w-full max-w-[370px] sm:max-w-[700px] lg:max-w-[1024px] 1xl:max-w-[1260px] justify-start items-center 1xl:items-start flex-col">
+        <div className="flex w-full sm:gap-0 gap-1 max-w-[370px] sm:max-w-[700px] lg:max-w-[1024px] 1xl:max-w-[1260px] justify-start items-center 1xl:items-start flex-col">
           <h2 className="self-start uppercase text-[30px] sm:text-[64px] lg:text-[94px] 1xl:text-[120px] text-white font-medium leading-[1]">
             Share your
           </h2>

@@ -70,7 +70,7 @@ const FAQ__ITEM = ({ question, answer }) => {
     <div className="flex w-full justify-start items-start flex-col gap-5">
       <div
         onClick={() => setActive((prev) => !prev)}
-        className="flex cursor-pointer justify-start items-center w-full gap-4 sm:gap-8 1xl:gap-16"
+        className="flex cursor-pointer justify-start items-center w-full gap-4 sm:gap-8"
       >
         <div
           className={`${

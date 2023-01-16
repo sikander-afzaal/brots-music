@@ -3,7 +3,7 @@ const Early = () => {
     <div className="wrapper  3xl:bg-floorBig bg-floorMob mid:bg-floorMid bg-cover pb-[100px] mt-[20px] sm:mt-[70px] mid:mt-[130px]">
       <div className="contain mid:flex-row flex-col justify-between 2xl:justify-evenly items-start gap-[70px] mid:gap-[50px]">
         <div className="flex 2xl:max-w-none max-w-[480px] justify-start items-start flex-col gap-2">
-          <h2 className="text-cream text-[40px] sm:text-[80px] mid:text-[70px] lg:text-[90px] xl:text-[100px] 2xl:text-[120px] font-semibold">
+          <h2 className="text-cream text-[40px] sm:text-[80px] mid:text-[70px] lg:text-[90px] xl:text-[100px] 2xl:text-[120px] font-medium">
             Be EARLY
           </h2>
           <p className="text-cream text-lg sm:text-[33px] mid:text-[22px] xl:text-[25px] 2xl:text-[32px] leading-[1.2]">
@@ -19,7 +19,7 @@ const Early = () => {
               01
             </h4>
             <div className="flex justify-start items-start flex-col gap-5">
-              <h3 className="uppercase text-cream leading-[1] text-[32px] sm:text-[62px] mid:text-[42px] xl:text-[50px] 1xl:text-[62px] font-medium">
+              <h3 className="uppercase text-cream leading-[1] text-[28px] sm:text-[62px] mid:text-[42px] xl:text-[50px] 1xl:text-[62px] font-medium">
                 Collect
               </h3>
               <p className="leading-[1.1] text-lg sm:text-[33px] mid:text-lg xl:text-xl 1xl:text-[25px] text-cream">
@@ -33,7 +33,7 @@ const Early = () => {
               02
             </h4>
             <div className="flex justify-start items-start flex-col gap-5">
-              <h3 className="uppercase text-cream leading-[1] text-[32px] sm:text-[62px] mid:text-[42px] xl:text-[50px] 1xl:text-[62px] font-medium">
+              <h3 className="uppercase text-cream leading-[1] text-[28px] sm:text-[62px] mid:text-[42px] xl:text-[50px] 1xl:text-[62px] font-medium">
                 EXPERIENCE
               </h3>
               <p className="leading-[1.1] text-lg sm:text-[33px] mid:text-lg xl:text-xl 1xl:text-[25px] text-cream">
@@ -48,7 +48,7 @@ const Early = () => {
               03
             </h4>
             <div className="flex justify-start items-start flex-col gap-5">
-              <h3 className="uppercase text-cream leading-[1] text-[32px] sm:text-[62px] mid:text-[42px] xl:text-[50px] 1xl:text-[62px] font-medium">
+              <h3 className="uppercase text-cream leading-[1] text-[28px] sm:text-[62px] mid:text-[42px] xl:text-[50px] 1xl:text-[62px] font-medium">
                 FLEX
               </h3>
               <p className="leading-[1.1] text-lg sm:text-[33px] mid:text-lg xl:text-xl 1xl:text-[25px] text-cream">

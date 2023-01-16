@@ -11,6 +11,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ["Helvetica", ...defaultTheme.fontFamily.sans],
+        druk: ["Druk", ...defaultTheme.fontFamily.serif],
       },
       backgroundImage: {
         btnHover: "linear-gradient(to right, #a9e1fc, #e400ed)",

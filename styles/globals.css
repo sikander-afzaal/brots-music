@@ -1,6 +1,27 @@
 @font-face {
   font-family: Helvetica;
-  src: url("/fonts/HelveticaNeue.ttc");
+  src: url("/fonts/Helvetica\ Neue\ Medium\ Extended.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: Helvetica;
+  src: url("/fonts/Helvetica\ Neue\ UltraLight.ttf");
+  font-weight: 300;
+}
+@font-face {
+  font-family: Helvetica;
+  src: url("/public/fonts/Helvetica\ Neue\ W01\ 87\ Hv\ Cn\ Obl.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: Druk;
+  src: url("/fonts/FontsFree-Net-Druk-Wide-Bold.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: Druk;
+  src: url("/fonts/FontsFree-Net-Druk-Wide-Medium.ttf");
+  font-weight: 500;
 }
 @tailwind base;
 @tailwind components;
