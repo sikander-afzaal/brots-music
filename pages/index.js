@@ -1,6 +1,8 @@
 import Early from "@/components/Landing/Early";
 import Hero from "@/components/Landing/Hero";
 import Partners from "@/components/Landing/Partners";
+import Press from "@/components/Landing/Press";
+import Project from "@/components/Landing/Project";
 import Releases from "@/components/Landing/Releases";
 import Share from "@/components/Landing/Share";
 import Steps from "@/components/Landing/Steps";
@@ -21,6 +23,8 @@ export default function Home() {
       <Partners />
       <Share />
       <Steps />
+      <Project />
+      <Press />
     </>
   );
 }
