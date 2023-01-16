@@ -1,6 +1,7 @@
 import Early from "@/components/Landing/Early";
 import Faq from "@/components/Landing/Faq";
 import Hero from "@/components/Landing/Hero";
+import MobileApp from "@/components/Landing/MobileApp";
 import Partners from "@/components/Landing/Partners";
 import Press from "@/components/Landing/Press";
 import Project from "@/components/Landing/Project";
@@ -27,6 +28,7 @@ export default function Home() {
       <Project />
       <Press />
       <Faq />
+      <MobileApp />
     </>
   );
 }

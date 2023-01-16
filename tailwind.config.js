@@ -22,6 +22,7 @@ module.exports = {
         floorBig: "url('/floor-2560.png')",
         wall: "url('/wall-bg.png')",
         card: "url('/bg-card.png')",
+        mob: "url('/screen mobile.png')",
       },
       colors: {
         pink: "#E400ED",
