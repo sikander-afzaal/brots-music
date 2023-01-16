@@ -64,8 +64,8 @@ const Project = () => {
                 Are you a label?
               </h3>
               <p className="text-lg 2xl:text-[25px] text-cream">
-                As a label, you’re always looking for new ways to promote your
-                artists and reach new fans.
+                As a label, you{"'"}re always looking for new ways to promote
+                your artists and reach new fans.
               </p>
               <button
                 className="bg-cream hover:bg-transparent hover:text-white transition-all duration-500 cursor-pointer flex justify-between sm:p-0 px-5 sm:justify-center items-center gap-2 
