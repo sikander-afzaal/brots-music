@@ -66,11 +66,11 @@ const ReleaseCard = () => {
   return (
     <div className="flex justify-start h-[500px] max-h-[490px] items-center flex-col w-[280px] sm:w-[290px] p-[15px] bg-card bg-[100%__100%] gap-[40px]">
       <div className="w-full max-h-[250px] min-h-[250px] mt-1 relative">
-        <Image src="/release.png" fill />
+        <Image alt="..." src="/release.png" fill />
       </div>
       <div className="flex w-full h-full justify-between items-start flex-col gap-2">
         <div className="flex justify-start items-start gap-2 w-full">
-          <Image src={"/artists.png"} width={42} height={42} />
+          <Image alt="..." src={"/artists.png"} width={42} height={42} />
           <div className="flex justify-center items-start pt-1 flex-col gap-3">
             <p className="text-cream text-xl font-medium ">RUDE CAT</p>
             <p className="text-cream text-2xl font-medium ">Do You Mind</p>

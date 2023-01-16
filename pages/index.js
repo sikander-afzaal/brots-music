@@ -1,4 +1,5 @@
 import Early from "@/components/Landing/Early";
+import Faq from "@/components/Landing/Faq";
 import Hero from "@/components/Landing/Hero";
 import Partners from "@/components/Landing/Partners";
 import Press from "@/components/Landing/Press";
@@ -25,6 +26,7 @@ export default function Home() {
       <Steps />
       <Project />
       <Press />
+      <Faq />
     </>
   );
 }

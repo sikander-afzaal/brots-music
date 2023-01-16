@@ -1,6 +1,6 @@
 const Steps = () => {
   return (
-    <div className="wrapper sm:mt-[100px] py-[70px] mt-[50px] sm:py-[150px] bg-wall bg-cover">
+    <div className="wrapper sm:mt-[100px] py-[70px] mt-[50px] sm:py-[150px] bg-wall bg-contain">
       <div className="w-full 3xl:max-w-[2128px] max-w-[90%] gap-y-[40px] xl:gap-y-[80px] 3xl:gap-x-0 gap-x-[60px] grid grid-cols-1 mid:grid-cols-2 grid-rows-[auto__0.3fr__auto__auto__auto] 3xl:grid-rows-[auto__0.1fr__auto__auto] ">
         <div className="flex justify-start items-start w-full max-w-[290px] sm:max-w-[477px] xl:max-w-[634px] 3xl:justify-self-center justify-self-start flex-col gap-5">
           <div className="bg-white text-black w-full sm:py-5 sm:px-5 p-3 flex justify-start gap-2 items-start flex-col">

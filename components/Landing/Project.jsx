@@ -16,6 +16,7 @@ const Project = () => {
         <div className="flex justify-start lg:max-w-[860px] lg:justify-center items-start lg:mt-0 mt-10 lg:items-center flex-col gap-16 mid:gap-[80px]">
           <div className="flex w-full justify-start items-start gap-2">
             <Image
+              alt="..."
               src={"/logo-circle.png"}
               width={80}
               height={80}
@@ -53,6 +54,7 @@ const Project = () => {
           </div>
           <div className="flex w-full justify-start items-start gap-2">
             <Image
+              alt="..."
               src={"/logo-circle.png"}
               width={80}
               height={80}
