@@ -6,7 +6,7 @@ const LeftDetails = () => {
       <div className="w-full aspect-square rounded-lg overflow-hidden relative">
         <Image src={"/image-detail.jpg"} fill alt="..." />
       </div>
-      <div className="flex justify-start items-start gap-4 w-full opacity-30">
+      <div className="flex justify-center items-start gap-4 w-full opacity-30">
         <Image
           src={"/play-ico.png"}
           width={60}
