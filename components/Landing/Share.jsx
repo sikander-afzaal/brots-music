@@ -18,9 +18,14 @@ const Share = () => {
             Impress your peers and elevate your status as a music fan by flexing
             your collection on your preferred social media platforms.
           </p>
-          <div className="bg-green text-black text-[30px] sm:text-[45px] w-full max-w-[415px] h-auto aspect-square sm:aspect-auto sm:h-[380px] flex justify-center items-center">
-            <p>VIDEO BLOCK</p>
-          </div>
+          <video
+            src="/video.mp4"
+            autoPlay
+            loop
+            playsInline
+            muted
+            className="w-full object-cover max-w-[415px] h-auto aspect-square sm:aspect-auto sm:h-[380px]"
+          />
         </div>
       </div>
     </div>
