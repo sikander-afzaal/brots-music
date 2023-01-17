@@ -4,7 +4,7 @@ import Link from "next/link";
 const Header = () => {
   return (
     <div
-      className={`wrapper transition-all duration-300 py-[30px] fixed top-0 left-0 z-[100]`}
+      className={`wrapper  transition-all duration-300 py-[30px] fixed top-0 left-0 z-[100]`}
     >
       <header className="contain justify-between items-center ">
         <Link href="/">
@@ -12,8 +12,7 @@ const Header = () => {
         </Link>
         <div className="flex justify-start items-center gap-5">
           <button
-            className={`uppercase border-0 bg-transparent text-white 
-            }text-base sm:text-lg font-normal`}
+            className={`uppercase border-0 bg-transparent text-white text-base sm:text-lg font-normal`}
           >
             Sign IN
           </button>
