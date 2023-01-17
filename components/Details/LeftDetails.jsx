@@ -24,7 +24,7 @@ const LeftDetails = () => {
         </div>
       </div>{" "}
       <div className="hidden mid:flex justify-start items-start flex-col gap-3">
-        <h3 className="uppercase text-cream text-medium text-[42px] leading-[1]">
+        <h3 className="uppercase text-cream font-medium text-[42px] leading-[1]">
           Behind <br /> the music
         </h3>
         <p className="text-cream text-lg leading-[1.2]">

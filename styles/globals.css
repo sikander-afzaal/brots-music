@@ -8,6 +8,11 @@
   src: url("/fonts/Helvetica\ Neue\ UltraLight.ttf");
   font-weight: 300;
 }
+@font-face {
+  font-family: Helvetica;
+  src: url("/fonts/helveticaneue.ttf");
+  font-weight: 400;
+}
 
 @font-face {
   font-family: Druk;
