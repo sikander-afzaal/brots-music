@@ -2,6 +2,7 @@ import { Splide, SplideSlide, SplideTrack } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
 
 const Releases = ({ heading }) => {
   return (
@@ -99,8 +100,20 @@ const Releases = ({ heading }) => {
 export default Releases;
 
 const ReleaseCard = () => {
+  const [scaled, setScaled] = useState(false);
   return (
-    <Link href={"/details"} className="slider-div">
+    <Link
+      // onMouseDown={() => {
+      //   setScaled(true);
+      // }}
+      // onMouseUp={() => {
+      //   setScaled(false);
+      // }}
+      href={"/details"}
+      className={`slider-div ${
+        scaled ? "scale-95" : "scale-100"
+      } hover:-translate-y-5 transition-all duration-500`}
+    >
       <div className="flex justify-start h-[500px] max-h-[490px] items-center flex-col w-[280px] sm:w-[290px] p-[15px] bg-card bg-[100%__100%] gap-[40px]">
         <div className="w-full max-h-[250px] min-h-[250px] mt-1 relative">
           <Image alt="..." src="/release.png" fill />

@@ -3,8 +3,8 @@ import Image from "next/image";
 const LeftDetails = () => {
   return (
     <div className="flex static lg:sticky top-[100px] w-full justify-start items-start flex-col gap-5">
-      <div className="w-full aspect-square relative">
-        <Image src={"/image-detail.png"} fill alt="..." />
+      <div className="w-full aspect-square rounded-lg overflow-hidden relative">
+        <Image src={"/image-detail.jpg"} fill alt="..." />
       </div>
       <div className="flex justify-start items-start gap-4 w-full opacity-30">
         <Image
