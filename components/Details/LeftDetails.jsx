@@ -27,7 +27,7 @@ const LeftDetails = () => {
         <h3 className="uppercase text-cream font-medium text-[42px] leading-[1]">
           Behind <br /> the music
         </h3>
-        <p className="text-cream text-lg leading-[1.2]">
+        <p className="text-cream text-lg leading-[1.2] max-w-[433px]">
           The story of this track start in the glorious nineties again, as the
           original version has been made. The story of this track start in the
           glorious nineties again, as the original version has been…
