@@ -33,7 +33,7 @@ const RightDetails = () => {
           <p className="text-[#989898] text-[18px] sm:text-[22px]">
             Select QUANTITY
           </p>
-          <div className="w-full flex justify-between items-center bg-[#1F1E1E] border-[1px] border-solid border-[#707070] rounded-md px-[6px] py-[6px]">
+          <div className="w-full flex justify-between items-center bg-[#1F1E1E] rounded-md px-[6px] py-[6px]">
             <button className="bg-black rounded-md border-[1px] border-solid border-[#989898] w-[76px] h-[32px] text-white font-bold text-xl leading-[1] pb-1">
               -
             </button>
