@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const RightDetails = () => {
   return (
-    <div className="w-full max-w-[39%] flex mt-5 justify-start items-start flex-col gap-5">
+    <div className="w-full lg:max-w-[39%] flex mt-5 justify-start items-start flex-col gap-5">
       <div className="flex justify-between w-full items-center gap-4">
         <div className="flex justify-start items-center gap-3">
           <Image src={"/artists.png"} width={42} height={42} alt="..." />
