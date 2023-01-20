@@ -14,6 +14,7 @@ module.exports = {
         druk: ["Druk", ...defaultTheme.fontFamily.serif],
       },
       backgroundImage: {
+        btnGr: "linear-gradient(to bottom,#F600AC,#6CB1DE)",
         btnHover: "linear-gradient(to right, #a9e1fc, #e400ed)",
         heroMob: "url('/hero-mobile.jpg')",
         heroMid: "url('/hero-1920.jpg')",
