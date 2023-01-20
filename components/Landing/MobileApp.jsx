@@ -46,7 +46,7 @@ const MobileApp = () => {
               <h2 className="text-[29px] sm:text-[47px] font-medium text-white ">
                 Take Brots with You Everywhere
               </h2>
-              <button className="bg-btnGr w-[130px] h-[50px] text-white border-none rounded-full cursor-pointer text-[21px] font-medium">
+              <button className="bg-btnGr w-[78px] sm:w-[130px] h-[30px] sm:h-[50px] text-white border-none rounded-full cursor-pointer text-[11px] sm:text-[21px] font-medium">
                 Explore
               </button>
             </div>
